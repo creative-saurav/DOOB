@@ -1,0 +1,55 @@
+@media all and (max-width:992px){
+    .nav-item {
+        padding: 10px 0;
+    }
+    .nav-btns {
+        margin-left: 0px;
+        padding: 20px 0 ;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 ;
+    }
+    /* Chose area */
+    .chose-l-img {
+        margin-bottom: 40px;
+    }
+    /* Service Area */
+    .gx-gap{
+        margin-bottom: 3rem;
+    }
+    /* Gallary Section */
+    .port-menu ul li {
+        margin: 5px 4px;
+    }
+    /* Deserve Area */
+    .deserve-items {
+        margin-bottom: 50px;
+    }
+    /* Footer area Css */
+    .footer-social-link a {
+        margin: 5px;
+    }
+}
+@media all and (max-width:767px){
+    .slide {
+        height: 80vh;
+    }
+    .silde-content {
+        top: 50%;
+    }
+}
+@media all and (max-width:576px){
+    .silde-content h2 {
+        margin-bottom: 30px;
+    }
+    .silde-content p {
+        display: none;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        display: none;
+    }
+    /* Deserve area */
+    .derserve-content ul:before {
+        height: calc(100% - 90px);
+    }
+}
